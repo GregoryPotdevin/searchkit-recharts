@@ -1,0 +1,64 @@
+{
+  "name": "searchkit-recharts",
+  "version": "0.0.1",
+  "description": "Searchkit Recharts components",
+  "main": "lib/index.js",
+  "jsnext:main": "es6/index.js",
+  "files": [
+    "es6",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build",
+    "clean": "nwb clean",
+    "start": "nwb serve",
+    "test": "nwb test",
+    "test:watch": "nwb test --server"
+  },
+  "peerDependencies": {
+    "react": "^0.14.7",
+    "searchkit": "^0.10.0",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "deep-equal": "^1.0.1",
+    "invariant": "^2.2.1",
+    "lodash": "^4.13.1",
+    "nwb": "0.9.x",
+    "nwb-sass": "^0.5.0",
+    "query-string": "^4.2.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "searchkit": "^0.10.0",
+    "warning": "^3.0.0"
+  },
+  "authors": [
+    {
+      "name": "Gregory Potdeviny",
+      "email": "gregory@appcraft.fr"
+    }
+  ],
+  "homepage": "http://gregorypotdevin.github.io/searchkit-recharts/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GregoryPotdevin/searchkit-recharts.git"
+  },
+  "keywords": [
+    "react-component",
+    "react components",
+    "searchkit",
+    "elasticsearch",
+    "elastic search",
+    "react",
+    "search",
+    "widgets",
+    "recharts",
+    "charts",
+    "pie chart"
+  ],
+  "dependencies": {
+    "recharts": "^0.12.7"
+  }
+}
